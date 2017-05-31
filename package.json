@@ -1,6 +1,6 @@
 {
   "name": "Hapi-sample",
-  "description": "sample code",
+  "description": "sample code for hapi module",
   "dependencies": {
     "hapi": "^16.3.0"
   }
