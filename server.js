@@ -38,6 +38,9 @@ Fs.readdir(routesDir, function (err, list) {
             }
         });
     });
+server.on('response', function (request) {
+    console.log(request.info.remoteAddress + ': ' + request.method.toUpperCase() + ' ' + request.url.path + ' --> ' + request.response.statusCode);
+});
 
 // Start the server
 server.start((err) => {
