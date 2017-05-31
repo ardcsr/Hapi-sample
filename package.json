@@ -1,4 +1,7 @@
 {
-    "name": "Hapi-sample",
-    "description": "sample code","
+  "name": "Hapi-sample",
+  "description": "sample code",
+  "dependencies": {
+    "hapi": "^16.3.0"
+  }
 }
