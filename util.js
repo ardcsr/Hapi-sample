@@ -30,4 +30,4 @@ exports.registerRoutes = function(server, routesDir){
 });
 }
 
-exports.items = ['aaa','bbb'];
+exports.items = {};
