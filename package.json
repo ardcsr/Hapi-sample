@@ -2,6 +2,9 @@
   "name": "Hapi-sample",
   "description": "sample code for hapi module",
   "dependencies": {
-    "hapi": "^16.3.0"
+    "async": "^2.4.1",
+    "fs": "0.0.1-security",
+    "hapi": "^16.3.0",
+    "path": "^0.12.7"
   }
 }
