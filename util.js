@@ -29,3 +29,5 @@ exports.registerRoutes = function(server, routesDir){
     });
 });
 }
+
+exports.items = {};
