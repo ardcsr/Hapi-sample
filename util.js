@@ -31,6 +31,5 @@ exports.registerRoutes = function(server, routesDir){
 }
 
 exports.items = { users:[
-        {user:'att',passward:'3456'},
-        {user:'atts',passward:'4567'}
+        
 ]};
