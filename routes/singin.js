@@ -2,7 +2,7 @@ var exports = module.exports = {};
 var util = require('../util')
 exports.routes = [{
     method: 'GET',
-    path: '/login/{user}/{pass}',
+    path: '/login/{user}/{pass?}',
     handler: function (request, reply) {
         var usernameinput = request.params.user
         var passwordinput = request.params.pass
@@ -26,6 +26,9 @@ exports.routes = [{
 
 
             
+        }
+        if(usernameinput==''){
+            reply('plase login')
         }
         }
 }]
