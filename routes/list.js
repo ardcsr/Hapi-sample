@@ -20,7 +20,7 @@ exports.routes = [{
         }  
         //list
         else{                                                       //เมื่อไม่มี /rearch
-           return reply(util.items)                                 //ให้แสดงค่าที่อยู่ใน util.item ทั้งหมด
+           return reply(util.items)                                 //ให้แสดงค่าที่อยู่ใน util.item ทั้งหมดเลย
         }                 
         }
 }]
